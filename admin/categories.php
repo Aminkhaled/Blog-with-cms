@@ -19,14 +19,29 @@
                             <small>Author</small>
                         </h1>
                        <div class="col-xs-4">
-                           <form action="" method="">
+                           <?php
+                           if(isset($_POST['submit'])){
+                               $cat_title = htmlspecialchars($_POST['cat_title']);
+
+                               if($cat_title == "" ||empty($cat_title)){
+                                   echo"This input should not be empty";
+                               }else{
+                                   $query = "INSERT INTO categories(cat_title) VALUES ('{$cat_title}')";
+                                   $create_category_query = mysqli_query($connection,$query);
+                                   if(!$create_category_query){
+                                       die('Query Failed'.mysqli_error($connection));
+                                   }
+                               }
+                           }
+
+                           ?>
+                           <form action="" method="post">
                                <div class="form-group">
                                    <label for="cat_title">Add Category</label>
                                    <input type="text" class="form-control" name="cat_title">
                                </div>
                                <div class="form-group">
-                                   <input type="submit" name="submit" class="btn btn-primary" value="Add Category">
-
+                                <button class="btn btn-primary" name="submit">Add Category</button>
                                </div>
 
                            </form>
@@ -64,10 +79,21 @@
                                 <tr>
                                     <td class="text-center"><?php echo $cat_id ?></td>
                                     <td class="text-center"><?php echo $cat_title?></td>
+                                    <?php echo"<td><a href='categories.php?delete=$cat_id'>Delete</a></td>" ?>
 
 
                                 </tr>
                                 <?php endwhile; ?>
+                                <?php
+                                if(isset($_GET['delete'])){
+                                    $the_cat_id = htmlspecialchars($_GET['delete']);
+                                    $query = "delete from categories WHERE cat_id = {$the_cat_id}";
+                                    $delete_all_categories =mysqli_query($connection,$query) ;
+                                    header("location: categories.php");
+                                }
+
+
+                                ?>
 
                                 </tbody>
                             </table>
