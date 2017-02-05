@@ -1,4 +1,4 @@
-<?php include"incudes/header.php" ?>
+<?php include"incudes/admin_header.php" ?>
 
     <div id="wrapper">
 
@@ -32,18 +32,43 @@
                            </form>
                        </div>
                         <div class="col-xs-8">
+                            <?php
+                             $query =" SELECT * FROM categories ";
+                            global $connection;
+                             $select_categories = mysqli_query($connection,$query);
+
+
+                            ?>
+
                             <table class="table table-bordered table-hover">
                                 <thead>
                                 <tr>
-                                    <th> Id category</th>
-                                    <th>   Category Name</th>
+                                    <th class="text-center"> Id category</th>
+                                    <th class="text-center">   Category Name</th>
                                 </tr>
                                 </thead>
                                 <tbody>
+                                <?php
+                                while($row = mysqli_fetch_assoc($select_categories)):
+
+
+                                    $cat_id = $row['cat_id'];
+                                    $cat_title = $row['cat_title'];
+
+
+
+
+
+
+                                ?>
                                 <tr>
-                                    <td>Bootstrap</td>
-                                    <td>Java</td>
+                                    <td class="text-center"><?php echo $cat_id ?></td>
+                                    <td class="text-center"><?php echo $cat_title?></td>
+
+
                                 </tr>
+                                <?php endwhile; ?>
+
                                 </tbody>
                             </table>
 
@@ -59,4 +84,4 @@
         </div>
         <!-- /#page-wrapper -->
 
-<?php include"incudes/footer.php" ?>
+<?php include"incudes/admin_footer.php" ?>

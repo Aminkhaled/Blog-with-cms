@@ -1,4 +1,4 @@
-<?php include"incudes/header.php" ?>
+<?php include"incudes/admin_header.php" ?>
 
     <div id="wrapper">
 
@@ -37,4 +37,4 @@
         </div>
         <!-- /#page-wrapper -->
 
-  <?php include"incudes/footer.php" ?>
+  <?php include"incudes/admin_footer.php" ?>
