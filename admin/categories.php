@@ -1,4 +1,6 @@
-<?php include"incudes/admin_header.php" ?>
+<?php require "functions.php"; ?>
+
+<?php include "incudes/admin_header.php"; ?>
 
     <div id="wrapper">
 
@@ -19,22 +21,12 @@
                             <small>Author</small>
                         </h1>
                        <div class="col-xs-4">
+
                            <?php
-                           if(isset($_POST['submit'])){
-                               $cat_title = htmlspecialchars($_POST['cat_title']);
+                           //add function
 
-                               if($cat_title == "" ||empty($cat_title)){
-                                   echo"This input should not be empty";
-                               }else{
-                                   $query = "INSERT INTO categories(cat_title) VALUES ('{$cat_title}')";
-                                   $create_category_query = mysqli_query($connection,$query);
-                                   if(!$create_category_query){
-                                       die('Query Failed'.mysqli_error($connection));
-                                   }
-                               }
-                           }
+                           add_cat_names(); ?>
 
-                           ?>
                            <form action="" method="post">
                                <div class="form-group">
                                    <label for="cat_title">Add Category</label>
@@ -49,25 +41,9 @@
                                <div class="form-group">
                                    <label for="cat_title">Edit Category</label>
                                    <?php
-                                   if (isset($_REQUEST['edit'])) {
-                                       $cat_id = $_REQUEST['edit'];
-                                       $query = "SELECT * FROM categories WHERE cat_id={$cat_id}";
-                                       global $connection;
-                                       $select_categories_edit = mysqli_query($connection, $query);
-                                       while ($row = mysqli_fetch_assoc($select_categories_edit)) {
-                                           $cat_id = $row['cat_id'];
-                                           $cat_title = $row['cat_title'];
-                                           ?>
-                                           <input value="<?php if (isset($cat_title)) {
-                                               echo $cat_title;
-                                           } ?>"
-                                                  type="text" class="form-control" name="cat_title">
+                                   //edit function
 
-
-                                           <?php
-
-                                       }
-                                   }
+                                   edit_cat();
                                    ?>
                                </div>
                                <div class="form-group">
@@ -114,18 +90,14 @@
                                     <td class="text-center"><?php echo $cat_id ?></td>
                                     <td class="text-center"><?php echo $cat_title?></td>
 
-                                    <?php echo "<td class='text-center'><a href='categories.php?delete ={$cat_id}'>Delete</a></td>" ?>
-                                    <?php echo "<td class='text-center'><a href='categories.php?edit ={$cat_id}'>Edit</a></td>" ?>
+                                    <?php echo "<td class='text-center'><a href='categories.php?delete={$cat_id}'>Delete</a></td>" ?>
+                                    <?php echo "<td class='text-center'><a href='categories.php?edit={$cat_id}'>Edit</a></td>" ?>
 
                                 </tr>
                                 <?php endwhile; ?>
                                 <?php
-                                if (isset($_REQUEST['delete'])) {
-                                    $the_cat_id = htmlspecialchars($_REQUEST['delete']);
-                                    $query = "delete from categories WHERE cat_id = {$the_cat_id}";
-                                    $delete_all_categories = mysqli_query($connection, $query);
-                                    header("location: categories.php");
-                                }
+                                //delete function
+                                delete_cat();
 
 
                                 ?>
@@ -146,3 +118,5 @@
         <!-- /#page-wrapper -->
 
 <?php include"incudes/admin_footer.php" ?>
+
+
