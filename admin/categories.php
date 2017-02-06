@@ -45,6 +45,36 @@
                                </div>
 
                            </form>
+                           <form action="" method="post">
+                               <div class="form-group">
+                                   <label for="cat_title">Edit Category</label>
+                                   <?php
+                                   if (isset($_REQUEST['edit'])) {
+                                       $cat_id = $_REQUEST['edit'];
+                                       $query = "SELECT * FROM categories WHERE cat_id={$cat_id}";
+                                       global $connection;
+                                       $select_categories_edit = mysqli_query($connection, $query);
+                                       while ($row = mysqli_fetch_assoc($select_categories_edit)) {
+                                           $cat_id = $row['cat_id'];
+                                           $cat_title = $row['cat_title'];
+                                           ?>
+                                           <input value="<?php if (isset($cat_title)) {
+                                               echo $cat_title;
+                                           } ?>"
+                                                  type="text" class="form-control" name="cat_title">
+
+
+                                           <?php
+
+                                       }
+                                   }
+                                   ?>
+                               </div>
+                               <div class="form-group">
+                                   <button class="btn btn-primary" name="submit">Edit Category</button>
+                               </div>
+
+                           </form>
                        </div>
                         <div class="col-xs-8">
                             <?php
@@ -59,7 +89,11 @@
                                 <thead>
                                 <tr>
                                     <th class="text-center"> Id category</th>
-                                    <th class="text-center">   Category Name</th>
+                                    <th class="text-center"> Category Name</th>
+                                    <th class="text-center">Delete Category</th>
+                                    <th class="text-center">Edit Category</th>
+
+
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -79,16 +113,17 @@
                                 <tr>
                                     <td class="text-center"><?php echo $cat_id ?></td>
                                     <td class="text-center"><?php echo $cat_title?></td>
-                                    <?php echo"<td><a href='categories.php?delete=$cat_id'>Delete</a></td>" ?>
 
+                                    <?php echo "<td class='text-center'><a href='categories.php?delete ={$cat_id}'>Delete</a></td>" ?>
+                                    <?php echo "<td class='text-center'><a href='categories.php?edit ={$cat_id}'>Edit</a></td>" ?>
 
                                 </tr>
                                 <?php endwhile; ?>
                                 <?php
-                                if(isset($_GET['delete'])){
-                                    $the_cat_id = htmlspecialchars($_GET['delete']);
+                                if (isset($_REQUEST['delete'])) {
+                                    $the_cat_id = htmlspecialchars($_REQUEST['delete']);
                                     $query = "delete from categories WHERE cat_id = {$the_cat_id}";
-                                    $delete_all_categories =mysqli_query($connection,$query) ;
+                                    $delete_all_categories = mysqli_query($connection, $query);
                                     header("location: categories.php");
                                 }
 
