@@ -1,4 +1,4 @@
-<?php require "func.php"; ?>
+`<?php require "func.php"; ?>
 
 <?php include "incudes/admin_header.php"; ?>
 
@@ -25,7 +25,21 @@
                     </h1>
 <!--       view all posts by php              -->
                     <?php
-                    include'incudes/view_all_posts.php';
+                    if($_GET['source']){
+                        $source = $_GET['source'];
+                    }else{
+                        $source = '';
+                    }
+                    switch($source){
+                        case"add_post":
+                            include'incudes/add_post.php';
+                            break;
+
+                        default:
+                            include'incudes/view_all_posts.php';
+                            break;
+                    }
+
                     ?>
 
             </div>
