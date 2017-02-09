@@ -1,6 +1,4 @@
-// function for category page
 <?php
-
 
 function add_cat_names()
 {
@@ -22,35 +20,8 @@ function add_cat_names()
 
 
 }
-?>
-<?php
-function edit_cat(){
-    if (isset($_GET['edit'])) {
-        $cat_id = htmlspecialchars($_GET['edit']);
-        $query = "SELECT * FROM categories WHERE cat_id={$cat_id}";
-        global $connection;
-        $select_categories_edit = mysqli_query($connection, $query);
-        while ($row = mysqli_fetch_assoc($select_categories_edit)) {
-            $cat_id = $row['cat_id'];
-            $cat_title = $row['cat_title'];
-            ?>
-            <input value="<?php if (isset($cat_title)) {
-                echo $cat_title;
-            } ?>"
-                   type="text" class="form-control" name="cat_title">
 
-
-            <?php
-
-        }
-    }
-}
-
-
-
-?>
-
-<?php function delete_cat(){
+function delete_cat(){
     if (isset($_REQUEST['delete'])) {
         $the_cat_id = htmlspecialchars($_REQUEST['delete']);
         $query = "delete from categories WHERE cat_id = {$the_cat_id}";
@@ -58,4 +29,4 @@ function edit_cat(){
         $delete_all_categories = mysqli_query($connection, $query);
         header("location: categories.php");
     }
-} ?>
+}

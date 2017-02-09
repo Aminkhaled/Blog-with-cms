@@ -1,6 +1,9 @@
-<?php require "functions.php"; ?>
+<?php require "func.php"; ?>
 
 <?php include "incudes/admin_header.php"; ?>
+
+
+<?php ob_start(); ?>
 
     <div id="wrapper">
 
@@ -37,20 +40,22 @@
                                </div>
 
                            </form>
-                           <form action="" method="post">
-                               <div class="form-group">
-                                   <label for="cat_title">Edit Category</label>
-                                   <?php
-                                   //edit function
+                    <?php
+                       if(isset($_GET['edit'])){
+                           $cat_id = $_GET['edit'];
+                           include"incudes/edit-category.php";
 
-                                   edit_cat();
-                                   ?>
-                               </div>
-                               <div class="form-group">
-                                   <button class="btn btn-primary" name="submit">Edit Category</button>
-                               </div>
+                       }
 
-                           </form>
+
+
+
+
+
+                    ?>
+
+
+
                        </div>
                         <div class="col-xs-8">
                             <?php
