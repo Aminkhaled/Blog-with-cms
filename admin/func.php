@@ -30,3 +30,6 @@ function delete_cat(){
         header("location: categories.php");
     }
 }
+
+
+

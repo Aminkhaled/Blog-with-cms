@@ -25,7 +25,7 @@
                     </h1>
 <!--       view all posts by php              -->
                     <?php
-                    if($_GET['source']){
+                    if(isset($_GET['source'])){
                         $source = $_GET['source'];
                     }else{
                         $source = '';
