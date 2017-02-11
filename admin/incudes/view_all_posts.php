@@ -12,6 +12,7 @@
         <th>Comments</th>
         <th>Date</th>
         <th>Delete</th>
+        <th>Edit</th>
     </tr>
     </thead>
     <tr>
@@ -44,6 +45,8 @@
         <td><?php echo $post_comment_count ?></td>
         <td><?php echo $post_date ?></td>
         <?php echo" <td><a href='posts.php?delete={$post_id}'>Delete</a></td>" ?>
+        <?php echo" <td><a href='posts.php?source=edit_post&p_id={$post_id}'>Edit</a></td>" ?>
+
 
     </tr>
     <?php } ?>
@@ -61,4 +64,6 @@ if(isset($_REQUEST['delete'])){
 }
 
 
+
 ?>
+
