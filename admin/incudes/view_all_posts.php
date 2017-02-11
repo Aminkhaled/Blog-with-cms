@@ -11,6 +11,7 @@
         <th>Tags</th>
         <th>Comments</th>
         <th>Date</th>
+        <th>Delete</th>
     </tr>
     </thead>
     <tr>
@@ -42,8 +43,22 @@
         <td><?php echo $post_tags ?></td>
         <td><?php echo $post_comment_count ?></td>
         <td><?php echo $post_date ?></td>
-
+        <?php echo" <td><a href='posts.php?delete={$post_id}'>Delete</a></td>" ?>
 
     </tr>
     <?php } ?>
 </table>
+
+<?php
+if(isset($_REQUEST['delete'])){
+    $delete = $_REQUEST['delete'];
+    $query = "Delete from posts WHERE post_id =$delete";
+    $delete_post = mysqli_query($connection,$query);
+
+    if(!$delete_post){
+        die("query failed" .mysqli_error($connection));
+    }
+}
+
+
+?>

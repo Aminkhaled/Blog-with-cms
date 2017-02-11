@@ -1,33 +1,43 @@
 <?php
-if(isset($_FILES['file'])){
-$image = $_FILES['file']['name'];
-$image_temp = $_FILES['file']['tmp_name'];
-$image_size =$_FILES['file']['size'];
-$image_type =$_FILES['file']['type'];
+if(isset($_FILES['file'])) {
+    $image = $_FILES['file']['name'];
+    $image_temp = $_FILES['file']['tmp_name'];
+    $image_size = $_FILES['file']['size'];
+    $image_type = $_FILES['file']['type'];
 
-?>
+    ?>
 
-<?php
-if(isset($_POST['submit'])) {
-    $post_title = $_POST['post_title'];
-    $post_category_id = $_POST['post_category_id'];
-    $post_author = $_POST['post_author'];
-    $post_date = date('d-m-y');
-    $post_content = $_POST['post_content'];
-    $post_status = $_POST['post_status'];
-    $post_tags = $_POST['post_tags'];
-    $post_comment_count = 4;
-
-
-    move_uploaded_file($image_temp, "../images/$image");
+    <?php
+    if (isset($_POST['submit'])) {
+        $post_title = $_POST['post_title'];
+        $post_category_id = $_POST['post_category_id'];
+        $post_author = $_POST['post_author'];
+        $post_date = date('d-m-y');
+        $post_content = $_POST['post_content'];
+        $post_status = $_POST['post_status'];
+        $post_tags = $_POST['post_tags'];
+        $post_comment_count = 4;
 
 
-}
+        move_uploaded_file($image_temp, "../images/$image");
+
+        $query = "INSERT INTO posts (post_category_id, post_title, post_author,
+             post_date, post_image, post_content, post_tags, post_comment_count,post_status) ";
+        $query .= "VALUES ('$post_category_id','$post_title',
+            ' $post_author ',now(),'$image','$post_content','$post_tags','$post_comment_count','$post_status')";
+
+        global $connection;
+        $insert_into_post = mysqli_query($connection , $query);
+        if (!$insert_into_post) {
+            die("query failed" . mysqli_error($connection));
+        }
+
+    }
 
 
 
-}else{
-    echo"A7A";
+
+
 }
 
 

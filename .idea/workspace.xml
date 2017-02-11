@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ae0d2c3-214b-4364-83b8-668207f4ef2c" name="Default" comment="this add a blank page">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/func.php" afterPath="$PROJECT_DIR$/admin/func.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/incudes/add_post.php" afterPath="$PROJECT_DIR$/admin/incudes/add_post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/posts.php" afterPath="$PROJECT_DIR$/admin/posts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/incudes/admin_nav.php" afterPath="$PROJECT_DIR$/admin/incudes/admin_nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/incudes/view_all_posts.php" afterPath="$PROJECT_DIR$/admin/incudes/view_all_posts.php" />
     </list>
     <ignored path="cms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,18 +33,88 @@
         <entry file="file://$PROJECT_DIR$/admin/categories.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <caret line="0" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding>
+                <marker date="1486606675779" expanded="true" signature="1691:1715" placeholder="SELECT * FRO..categories..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="func.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/func.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding>
+                <marker date="1486768706779" expanded="true" signature="274:332" placeholder="INSERT INTO categories..." />
+                <marker date="1486768706779" expanded="true" signature="731:769" placeholder="delete from ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_post.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="add_post.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/incudes/add_post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09751434">
-              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1486769171183" expanded="true" signature="693:847" placeholder="INSERT INTO posts..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navigation.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/navigation.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin_nav.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/incudes/admin_nav.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="43" column="58" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/posts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view_all_posts.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/incudes/view_all_posts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1486773240685" expanded="true" signature="369:388" placeholder="select * fro..posts..." />
+                <marker date="1486773240685" expanded="true" signature="1678:1711" placeholder="Delete from ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,12 +144,12 @@
         <option value="$PROJECT_DIR$/admin/functions.php" />
         <option value="$PROJECT_DIR$/admin/incudes/edit-category.php" />
         <option value="$PROJECT_DIR$/admin/categories.php" />
-        <option value="$PROJECT_DIR$/admin/incudes/admin_nav.php" />
-        <option value="$PROJECT_DIR$/admin/incudes/view_all_posts.php" />
-        <option value="$PROJECT_DIR$/admin/func.php" />
         <option value="$PROJECT_DIR$/admin/posts.php" />
         <option value="$PROJECT_DIR$/admin/incudes/post_action.php" />
+        <option value="$PROJECT_DIR$/admin/func.php" />
         <option value="$PROJECT_DIR$/admin/incudes/add_post.php" />
+        <option value="$PROJECT_DIR$/admin/incudes/admin_nav.php" />
+        <option value="$PROJECT_DIR$/admin/incudes/view_all_posts.php" />
       </list>
     </option>
   </component>
@@ -120,6 +192,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -135,20 +208,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -187,7 +246,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,7 +336,7 @@
     <frame x="-7" y="0" width="1364" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30444786" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30860534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -328,7 +386,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1486606675779" expanded="true" signature="1691:1715" placeholder="SELECT * FRO..categories..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -336,7 +396,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1486769171183" expanded="true" signature="693:847" placeholder="INSERT INTO posts..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -344,7 +406,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1486606675779" expanded="true" signature="1691:1715" placeholder="SELECT * FRO..categories..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -373,7 +437,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1486606675779" expanded="true" signature="1691:1715" placeholder="SELECT * FRO..categories..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -381,7 +447,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1486606675779" expanded="true" signature="1691:1715" placeholder="SELECT * FRO..categories..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -389,7 +457,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1486606675779" expanded="true" signature="1691:1715" placeholder="SELECT * FRO..categories..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -404,7 +474,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1486606675779" expanded="true" signature="1691:1715" placeholder="SELECT * FRO..categories..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -569,13 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/navigation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7438795">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="40" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/slidebar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45574388">
@@ -618,31 +683,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36158192">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/incudes/admin_header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/incudes/admin_nav.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.423077">
-          <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/func.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -660,33 +704,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/incudes/view_all_posts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/posts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73996174">
-          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/categories.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <marker date="1486606675779" expanded="true" signature="1691:1715" placeholder="SELECT * FRO..categories..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/db.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <marker date="1486768706779" expanded="true" signature="274:332" placeholder="INSERT INTO categories..." />
+            <marker date="1486768706779" expanded="true" signature="731:769" placeholder="delete from ..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/incudes/add_post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09751434">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1486769171183" expanded="true" signature="693:847" placeholder="INSERT INTO posts..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/navigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/incudes/admin_nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="58" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/posts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/incudes/view_all_posts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1486773240685" expanded="true" signature="369:388" placeholder="select * fro..posts..." />
+            <marker date="1486773240685" expanded="true" signature="1678:1711" placeholder="Delete from ..." />
+          </folding>
         </state>
       </provider>
     </entry>

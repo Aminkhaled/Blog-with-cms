@@ -21,6 +21,8 @@ function add_cat_names()
 
 }
 
+?>
+<?php
 function delete_cat(){
     if (isset($_REQUEST['delete'])) {
         $the_cat_id = htmlspecialchars($_REQUEST['delete']);
@@ -30,6 +32,8 @@ function delete_cat(){
         header("location: categories.php");
     }
 }
+
+?>
 
 
 
