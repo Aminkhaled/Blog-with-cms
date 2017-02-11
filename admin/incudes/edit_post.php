@@ -25,15 +25,30 @@ while($row = mysqli_fetch_assoc($update_all_posts_id)) {
 ?>
 
 
-
 <form action=""method="post" enctype="multipart/form-data">
     <div class="form-group">
         <label for="post_title">Post title</label>
         <input type="text" value="<?php echo$post_title ?>" id="post_title" placeholder="post title" name="post_title" class="form-control">
     </div>
     <div class="form-group">
-        <label for="post_category_id">Post category id</label>
-        <input type="text" id="post_category_id" value="<?php echo$post_category_id ?>" placeholder="post category id" name="post_category_id" class="form-control">
+        <select name="" id="">
+            <?php
+                   $query ="SELECT * from categories ";
+                   $select_categories = mysqli_query($connection,$query);
+            if(!$select_categories){
+                die('query failed'.mysqli_error($connection));
+            }
+            while($row =mysqli_fetch_assoc($select_categories)){
+                $cat_id = $row['cat_id'];
+                $cat_post = $row['cat_title'];
+
+                echo"<option value=''>$cat_post</option>";
+            }
+
+
+
+            ?>
+        </select>
     </div>
     <div class="form-group">
         <label for="post_author">Post author</label>
@@ -46,8 +61,7 @@ while($row = mysqli_fetch_assoc($update_all_posts_id)) {
     </div>
 
     <div class="form-group">
-        <input type='file'  name='file'><br>
-
+        <img src="../images/<?php echo$post_image ?>" height="100px" width="100px" alt="">
     </div>
 
     <div class="form-group">
@@ -57,7 +71,9 @@ while($row = mysqli_fetch_assoc($update_all_posts_id)) {
 
     <div class="form-group">
         <label for="post_content">Post content</label>
-        <textarea name="post_content" id="post_content" value="<?php echo$post_content ?>" class="form-control" cols="30" rows="10"></textarea>
+        <textarea name="post_content" id="post_content" class="form-control" cols="30" rows="10">
+            <?php echo$post_content ?>
+        </textarea>
     </div>
 
     <div class="form-group">
