@@ -53,9 +53,15 @@
 </table>
 
 <?php
+if(empty($_REQUEST['delete'])){
+  unset($delete);
+}
+
 if(isset($_REQUEST['delete'])){
     $delete = $_REQUEST['delete'];
-    $query = "Delete from posts WHERE post_id =$delete";
+
+
+    $query = "Delete from posts WHERE post_id = $delete ";
     $delete_post = mysqli_query($connection,$query);
 
     if(!$delete_post){

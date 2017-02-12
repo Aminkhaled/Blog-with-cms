@@ -3,7 +3,7 @@
 if(isset($_REQUEST['p_id'])){
     $update = $_REQUEST['p_id'];
 }
-$query = "select * from posts WHERE post_id = $update";
+$query = "select * from posts WHERE post_id ={$update}";
 global $connection;
 $update_all_posts_id = mysqli_query($connection,$query);
 while($row = mysqli_fetch_assoc($update_all_posts_id)) {
@@ -75,8 +75,8 @@ if(isset($_FILES['file'])) {
     <div class="form-group">
         <select name="post_category" id="">
             <?php
-                   $query ="SELECT * from categories ";
-                   $select_categories = mysqli_query($connection,$query);
+            $query ="SELECT * from categories ";
+            $select_categories = mysqli_query($connection,$query);
             if(!$select_categories){
                 die('query failed'.mysqli_error($connection));
             }
