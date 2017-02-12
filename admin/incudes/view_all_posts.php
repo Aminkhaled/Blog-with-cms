@@ -34,10 +34,29 @@
 
 
         ?>
+
         <td><?php echo $post_id ?></td>
         <td><?php echo $post_author ?></td>
         <td><?php echo $post_title ?></td>
-        <td><?php echo $post_category_id ?></td>
+        <?php
+
+         $queryo ="Select * from categories WHERE cat_id =$post_category_id";
+        $select_all_categories = mysqli_query($connection,$queryo);
+        if(!$select_all_categories){
+            die('query falied'.mysqli_error($connection));
+        }
+        while($row =mysqli_fetch_assoc($select_all_categories)){
+            $cat_title =$row['cat_title'];
+            echo"<td>$cat_title</td>";
+
+        }
+
+
+
+        ?>
+
+
+
         <td><?php echo $post_status ?> </td>
 
         <td><?php echo "<img src='../images/$post_image' alt='$post_image' height='50px' width='50px' >" ?></td>
@@ -53,9 +72,7 @@
 </table>
 
 <?php
-if(empty($_REQUEST['delete'])){
-  unset($delete);
-}
+
 
 if(isset($_REQUEST['delete'])){
     $delete = $_REQUEST['delete'];
@@ -67,6 +84,9 @@ if(isset($_REQUEST['delete'])){
     if(!$delete_post){
         die("query failed" .mysqli_error($connection));
     }
+}
+if(empty($_REQUEST['delete'])){
+    unset($delete);
 }
 
 

@@ -10,7 +10,7 @@ if(isset($_FILES['file'])) {
     <?php
     if (isset($_POST['submit'])) {
         $post_title = $_POST['post_title'];
-        $post_category_id = $_POST['post_category_id'];
+        $post_category_id = $_POST['post_category'];
         $post_author = $_POST['post_author'];
         $post_date = date('d-m-y');
         $post_content = $_POST['post_content'];
@@ -52,8 +52,25 @@ if(isset($_FILES['file'])) {
         <input type="text" id="post_title" placeholder="post title" name="post_title" class="form-control">
     </div>
     <div class="form-group">
-        <label for="post_category_id">Post category id</label>
-        <input type="text" id="post_category_id" placeholder="post category id" name="post_category_id" class="form-control">
+        <select name="post_category" id="">
+            <?php
+            $query ="SELECT * from categories";
+            global $connection;
+            $select_categories = mysqli_query($connection,$query);
+            if(!$select_categories){
+                die('query failed'.mysqli_error($connection));
+            }
+            while($row =mysqli_fetch_assoc($select_categories)){
+                $cat_id = $row['cat_id'];
+                $cat_title = $row['cat_title'];
+
+                echo"<option>$cat_title</option>";
+            }
+
+
+
+            ?>
+        </select>
     </div>
     <div class="form-group">
         <label for="post_author">Post author</label>

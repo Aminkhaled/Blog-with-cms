@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ae0d2c3-214b-4364-83b8-668207f4ef2c" name="Default" comment="this add a blank page">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cms.sql" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/incudes/add_post.php" afterPath="$PROJECT_DIR$/admin/incudes/add_post.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/incudes/edit_post.php" afterPath="$PROJECT_DIR$/admin/incudes/edit_post.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/incudes/view_all_posts.php" afterPath="$PROJECT_DIR$/admin/incudes/view_all_posts.php" />
     </list>
@@ -27,30 +27,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="edit_post.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="edit_post.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/incudes/edit_post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.8175437">
-              <caret line="128" column="7" selection-start-line="128" selection-start-column="7" selection-end-line="128" selection-end-column="7" />
+            <state vertical-scroll-proportion="-15.692307">
+              <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
               <folding>
-                <marker date="1486920161501" expanded="true" signature="82:117" placeholder="select * fro..posts..." />
-                <marker date="1486920161501" expanded="true" signature="1358:1374" placeholder="UPDATE posts..." />
-                <marker date="1486920161501" expanded="true" signature="2415:2439" placeholder="SELECT * fro..categories..." />
+                <marker date="1486920747435" expanded="true" signature="136:171" placeholder="select * fro..posts..." />
+                <marker date="1486920747435" expanded="true" signature="1412:1428" placeholder="UPDATE posts..." />
+                <marker date="1486920747435" expanded="true" signature="2469:2493" placeholder="SELECT * fro..categories..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit_post.php" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/Blog-with-cms-master/admin/incudes/edit_post.php">
+      <file leaf-file-name="posts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/posts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.615385">
-              <caret line="128" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="128" selection-end-column="7" />
-              <folding>
-                <marker date="1486915760196" expanded="true" signature="82:117" placeholder="select * fro..posts..." />
-                <marker date="1486915760196" expanded="true" signature="1358:1374" placeholder="UPDATE posts..." />
-                <marker date="1486915760196" expanded="true" signature="2422:2446" placeholder="SELECT * fro..categories..." />
-              </folding>
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,13 +54,29 @@
       <file leaf-file-name="view_all_posts.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/incudes/view_all_posts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.961538">
-              <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+            <state vertical-scroll-proportion="-16.692308">
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding>
-                <marker date="1486919841527" expanded="true" signature="391:410" placeholder="select * fro..posts..." />
-                <marker date="1486919841527" expanded="true" signature="1851:1884" placeholder="Delete from ..." />
-                <marker date="1486919841527" expanded="true" signature="1851:1885" placeholder="Delete from ..." />
-                <marker date="1486919841527" expanded="true" signature="1851:1886" placeholder="Delete from ..." />
+                <marker date="1486930156097" expanded="true" signature="391:410" placeholder="select * fro..posts..." />
+                <marker date="1486930156097" expanded="true" signature="1187:1211" placeholder="Select * fro..categories..." />
+                <marker date="1486930156097" expanded="true" signature="1187:1226" placeholder="Select * fro..categories..." />
+                <marker date="1486930156097" expanded="true" signature="1187:1227" placeholder="Select * fro..categories..." />
+                <marker date="1486930156097" expanded="true" signature="2194:2227" placeholder="Delete from ..." />
+                <marker date="1486930156097" expanded="true" signature="2194:2228" placeholder="Delete from ..." />
+                <marker date="1486930156097" expanded="true" signature="2194:2229" placeholder="Delete from ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_post.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/incudes/add_post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.74561405">
+              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding>
+                <marker date="1486936367441" expanded="true" signature="690:844" placeholder="INSERT INTO posts..." />
+                <marker date="1486936367441" expanded="true" signature="1615:1639" placeholder="SELECT * fro..categories..." />
               </folding>
             </state>
           </provider>
@@ -97,13 +109,13 @@
         <option value="$PROJECT_DIR$/admin/categories.php" />
         <option value="$PROJECT_DIR$/admin/incudes/post_action.php" />
         <option value="$PROJECT_DIR$/admin/func.php" />
-        <option value="$PROJECT_DIR$/admin/incudes/add_post.php" />
         <option value="$PROJECT_DIR$/admin/incudes/admin_nav.php" />
         <option value="$PROJECT_DIR$/admin/posts.php" />
         <option value="$USER_HOME$/Downloads/Blog-with-cms-master/admin/incudes/edit_post.php" />
         <option value="$PROJECT_DIR$/.git/COMMIT_EDITMSG" />
-        <option value="$PROJECT_DIR$/admin/incudes/view_all_posts.php" />
         <option value="$PROJECT_DIR$/admin/incudes/edit_post.php" />
+        <option value="$PROJECT_DIR$/admin/incudes/view_all_posts.php" />
+        <option value="$PROJECT_DIR$/admin/incudes/add_post.php" />
       </list>
     </option>
   </component>
@@ -306,7 +318,7 @@
     <frame x="-7" y="0" width="1364" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30860534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30860534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -694,41 +706,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/posts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.615385">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/incudes/add_post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1486769171183" expanded="true" signature="693:847" placeholder="INSERT INTO posts..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/incudes/view_all_posts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.961538">
-          <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
-          <folding>
-            <marker date="1486919841527" expanded="true" signature="391:410" placeholder="select * fro..posts..." />
-            <marker date="1486919841527" expanded="true" signature="1851:1884" placeholder="Delete from ..." />
-            <marker date="1486919841527" expanded="true" signature="1851:1885" placeholder="Delete from ..." />
-            <marker date="1486919841527" expanded="true" signature="1851:1886" placeholder="Delete from ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/Blog-with-cms-master/admin/incudes/edit_post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.615385">
-          <caret line="128" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="128" selection-end-column="7" />
+        <state vertical-scroll-proportion="-12.115385">
+          <caret line="115" column="23" selection-start-line="115" selection-start-column="23" selection-end-line="115" selection-end-column="23" />
           <folding>
             <marker date="1486915760196" expanded="true" signature="82:117" placeholder="select * fro..posts..." />
             <marker date="1486915760196" expanded="true" signature="1358:1374" placeholder="UPDATE posts..." />
@@ -737,14 +718,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/posts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/incudes/view_all_posts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.692308">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <marker date="1486930156097" expanded="true" signature="391:410" placeholder="select * fro..posts..." />
+            <marker date="1486930156097" expanded="true" signature="1187:1211" placeholder="Select * fro..categories..." />
+            <marker date="1486930156097" expanded="true" signature="1187:1226" placeholder="Select * fro..categories..." />
+            <marker date="1486930156097" expanded="true" signature="1187:1227" placeholder="Select * fro..categories..." />
+            <marker date="1486930156097" expanded="true" signature="2194:2227" placeholder="Delete from ..." />
+            <marker date="1486930156097" expanded="true" signature="2194:2228" placeholder="Delete from ..." />
+            <marker date="1486930156097" expanded="true" signature="2194:2229" placeholder="Delete from ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/incudes/edit_post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.8175437">
-          <caret line="128" column="7" selection-start-line="128" selection-start-column="7" selection-end-line="128" selection-end-column="7" />
+        <state vertical-scroll-proportion="-15.692307">
+          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
           <folding>
-            <marker date="1486920161501" expanded="true" signature="82:117" placeholder="select * fro..posts..." />
-            <marker date="1486920161501" expanded="true" signature="1358:1374" placeholder="UPDATE posts..." />
-            <marker date="1486920161501" expanded="true" signature="2415:2439" placeholder="SELECT * fro..categories..." />
+            <marker date="1486920747435" expanded="true" signature="136:171" placeholder="select * fro..posts..." />
+            <marker date="1486920747435" expanded="true" signature="1412:1428" placeholder="UPDATE posts..." />
+            <marker date="1486920747435" expanded="true" signature="2469:2493" placeholder="SELECT * fro..categories..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/incudes/add_post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74561405">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <marker date="1486936367441" expanded="true" signature="690:844" placeholder="INSERT INTO posts..." />
+            <marker date="1486936367441" expanded="true" signature="1615:1639" placeholder="SELECT * fro..categories..." />
           </folding>
         </state>
       </provider>

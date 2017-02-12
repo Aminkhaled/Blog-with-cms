@@ -3,6 +3,11 @@
 if(isset($_REQUEST['p_id'])){
     $update = $_REQUEST['p_id'];
 }
+
+if(empty($_REQUEST['p_id'])){
+    unset($update);
+}
+
 $query = "select * from posts WHERE post_id ={$update}";
 global $connection;
 $update_all_posts_id = mysqli_query($connection,$query);
