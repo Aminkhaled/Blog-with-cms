@@ -28,46 +28,27 @@
       <file leaf-file-name="edit_post.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/incudes/edit_post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.9403509">
+              <caret line="82" column="6" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
               <folding>
-                <marker date="1486809496237" expanded="true" signature="82:101" placeholder="select * fro..posts..." />
-                <marker date="1486809496237" expanded="true" signature="1053:1077" placeholder="SELECT * fro..categories..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="categories.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/categories.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.615385">
-              <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-              <folding>
-                <marker date="1486606675779" expanded="true" signature="1691:1715" placeholder="SELECT * FRO..categories..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="posts.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/posts.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view_all_posts.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/incudes/view_all_posts.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="32" selection-end-column="56" />
-              <folding>
-                <marker date="1486778264004" expanded="true" signature="391:410" placeholder="select * fro..posts..." />
-                <marker date="1486778264004" expanded="true" signature="1796:1829" placeholder="Delete from ..." />
+                <marker date="1486910109789" expanded="true" signature="82:101" placeholder="select * fro..posts..." />
+                <marker date="1486910109789" expanded="true" signature="82:118" placeholder="select * fro..posts..." />
+                <marker date="1486910109789" expanded="true" signature="82:119" placeholder="select * fro..posts..." />
+                <marker date="1486910109789" expanded="true" signature="1357:1373" placeholder="UPDATE posts..." />
+                <marker date="1486910109789" expanded="true" signature="1357:1374" placeholder="UPDATE posts..." />
+                <marker date="1486910109789" expanded="true" signature="1357:1889" placeholder="UPDATE posts..." />
+                <marker date="1486910109789" expanded="true" signature="2068:2579" placeholder="..." />
+                <marker date="1486910109789" expanded="true" signature="2097:2300" placeholder="..." />
+                <marker date="1486910109789" expanded="true" signature="2329:2579" placeholder="..." />
+                <marker date="1486910109789" expanded="true" signature="2373:2579" placeholder="..." />
+                <marker date="1486910109789" expanded="true" signature="2421:2445" placeholder="SELECT * fro..categories..." />
+                <marker date="1486910109789" expanded="true" signature="2946:3155" placeholder="..." />
+                <marker date="1486910109789" expanded="true" signature="3185:3369" placeholder="..." />
+                <marker date="1486910109789" expanded="true" signature="3399:3554" placeholder="..." />
+                <marker date="1486910109789" expanded="true" signature="3584:3758" placeholder="..." />
+                <marker date="1486910109789" expanded="true" signature="3788:4011" placeholder="..." />
+                <marker date="1486910109789" expanded="true" signature="3941:4000" placeholder="..." />
+                <marker date="1486910109789" expanded="true" signature="4041:4121" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -76,8 +57,8 @@
       <file leaf-file-name="add_post.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/incudes/add_post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.65384614">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
               <folding>
                 <marker date="1486769171183" expanded="true" signature="693:847" placeholder="INSERT INTO posts..." />
               </folding>
@@ -159,8 +140,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -213,6 +192,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -715,16 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/incudes/add_post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding>
-            <marker date="1486769171183" expanded="true" signature="693:847" placeholder="INSERT INTO posts..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/posts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -733,20 +704,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/incudes/view_all_posts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="32" selection-end-column="56" />
-          <folding>
-            <marker date="1486778264004" expanded="true" signature="391:410" placeholder="select * fro..posts..." />
-            <marker date="1486778264004" expanded="true" signature="1796:1829" placeholder="Delete from ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/categories.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.615385">
+        <state vertical-scroll-proportion="0.0">
           <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding>
             <marker date="1486606675779" expanded="true" signature="1691:1715" placeholder="SELECT * FRO..categories..." />
@@ -754,13 +714,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/incudes/edit_post.php">
+    <entry file="file://$PROJECT_DIR$/admin/incudes/view_all_posts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1486809496237" expanded="true" signature="82:101" placeholder="select * fro..posts..." />
-            <marker date="1486809496237" expanded="true" signature="1053:1077" placeholder="SELECT * fro..categories..." />
+            <marker date="1486778264004" expanded="true" signature="391:410" placeholder="select * fro..posts..." />
+            <marker date="1486778264004" expanded="true" signature="1796:1829" placeholder="Delete from ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/incudes/add_post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
+          <folding>
+            <marker date="1486769171183" expanded="true" signature="693:847" placeholder="INSERT INTO posts..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/incudes/edit_post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9403509">
+          <caret line="82" column="6" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
+          <folding>
+            <marker date="1486910109789" expanded="true" signature="82:101" placeholder="select * fro..posts..." />
+            <marker date="1486910109789" expanded="true" signature="82:118" placeholder="select * fro..posts..." />
+            <marker date="1486910109789" expanded="true" signature="82:119" placeholder="select * fro..posts..." />
+            <marker date="1486910109789" expanded="true" signature="1357:1373" placeholder="UPDATE posts..." />
+            <marker date="1486910109789" expanded="true" signature="1357:1374" placeholder="UPDATE posts..." />
+            <marker date="1486910109789" expanded="true" signature="1357:1889" placeholder="UPDATE posts..." />
+            <marker date="1486910109789" expanded="true" signature="2068:2579" placeholder="..." />
+            <marker date="1486910109789" expanded="true" signature="2097:2300" placeholder="..." />
+            <marker date="1486910109789" expanded="true" signature="2329:2579" placeholder="..." />
+            <marker date="1486910109789" expanded="true" signature="2373:2579" placeholder="..." />
+            <marker date="1486910109789" expanded="true" signature="2421:2445" placeholder="SELECT * fro..categories..." />
+            <marker date="1486910109789" expanded="true" signature="2946:3155" placeholder="..." />
+            <marker date="1486910109789" expanded="true" signature="3185:3369" placeholder="..." />
+            <marker date="1486910109789" expanded="true" signature="3399:3554" placeholder="..." />
+            <marker date="1486910109789" expanded="true" signature="3584:3758" placeholder="..." />
+            <marker date="1486910109789" expanded="true" signature="3788:4011" placeholder="..." />
+            <marker date="1486910109789" expanded="true" signature="3941:4000" placeholder="..." />
+            <marker date="1486910109789" expanded="true" signature="4041:4121" placeholder="..." />
           </folding>
         </state>
       </provider>
