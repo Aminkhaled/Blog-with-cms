@@ -52,7 +52,7 @@ if(isset($_FILES['file'])) {
         <input type="text" id="post_title" placeholder="post title" name="post_title" class="form-control">
     </div>
     <div class="form-group">
-        <select name="post_category" id="">
+        <select name="post_category" >
             <?php
             $query ="SELECT * from categories";
             global $connection;
