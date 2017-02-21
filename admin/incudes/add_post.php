@@ -16,15 +16,14 @@ if(isset($_FILES['file'])) {
         $post_content = $_POST['post_content'];
         $post_status = $_POST['post_status'];
         $post_tags = $_POST['post_tags'];
-        $post_comment_count = 4;
 
 
         move_uploaded_file($image_temp, "../images/$image");
 
         $query = "INSERT INTO posts (post_category_id, post_title, post_author,
-             post_date, post_image, post_content, post_tags, post_comment_count,post_status) ";
+             post_date, post_image, post_content, post_tags,post_status) ";
         $query .= "VALUES ('$post_category_id','$post_title',
-            ' $post_author ',now(),'$image','$post_content','$post_tags','$post_comment_count','$post_status')";
+            ' $post_author ',now(),'$image','$post_content','$post_tags','$post_status')";
 
         global $connection;
         $insert_into_post = mysqli_query($connection , $query);

@@ -136,6 +136,14 @@
                             if (!$insert_all_comments) {
                                 die('query failed' . mysqli_error($connection));
                             }
+
+                            $query = "UPDATE posts SET post_comment_count = post_comment_count +1 where post_id
+   ={$p_id}";
+                            $update_comment_count = mysqli_query($connection, $query);
+
+
+                            ?>
+                            <?PHP
                         }
 
 
@@ -202,6 +210,7 @@
 
 
             <?php  } ?>
+
                     </div>
 
                 </div>
