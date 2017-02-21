@@ -4,12 +4,17 @@
 
         <th>Id</th>
         <th>Author</th>
+
         <th>Email</th>
         <th>Content</th>
         <th>Status</th>
         <th>date</th>
+        <th>Comment</th>
+        <th>Approve</th>
+        <th>Unapprove</th>
         <th>Delete</th>
-        <th>Edit</th>
+        <th>In Response to</th>
+
 
     </thead>
 
@@ -48,8 +53,15 @@
         echo "<td>$comment_content</td>";
         echo "<td>$comment_status</td>";
         echo "<td>$comment_date</td>";
+        echo "<td>$comment_date</td>";
+
+
+        echo " <td><a href='comment.php?approve={$comment_id}'>Approve</a></td>";
+        echo " <td><a href='comment.php?unapprove={$comment_id}'>Unapprove</a></td>";
+
+
         echo " <td><a href='comment.php?delete={$comment_id}'>Delete</a></td>";
-//        echo" <td><a href='posts.php?source=edit_post&p_id={$post_id}'>Edit</a></td>";
+        echo" <td><a href='../post.php?p_id={$comment_post_id}'>Show</a></td>";
 
 
     };
@@ -67,6 +79,42 @@
 </table>
 
 <?php
+if (isset($_REQUEST['approve'])) {
+    $approve = $_REQUEST['approve'];
+
+
+    $query = "UPDATE comments set comment_status = 'approve' WHERE comment_id ={$approve} ";
+    $approve_comment = mysqli_query($connection, $query);
+    header("location:comment.php");
+
+    if (!$approve_comment) {
+        die("query failed" . mysqli_error($connection));
+    }
+}
+if (empty($_REQUEST['approve'])) {
+    unset($approve);
+}
+
+
+
+
+if (isset($_REQUEST['unapprove'])) {
+    $unapprove = $_REQUEST['unapprove'];
+
+
+    $query = "UPDATE comments set comment_status = 'unapprove' WHERE comment_id ={$unapprove}";
+    $unapprove_comment = mysqli_query($connection, $query);
+    header("location:comment.php");
+
+
+    if (!$unapprove_comment) {
+        die("query failed" . mysqli_error($connection));
+    }
+}
+if (empty($_REQUEST['unapprove'])) {
+    unset($unapprove);
+}
+
 
 
 if (isset($_REQUEST['delete'])) {

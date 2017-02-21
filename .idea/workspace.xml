@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ae0d2c3-214b-4364-83b8-668207f4ef2c" name="Default" comment="this add a blank page">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mydb.dump" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/comment.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/incudes/view_all_comments.php" />
+    <list default="true" id="8ae0d2c3-214b-4364-83b8-668207f4ef2c" name="Default" comment="we make comments and delete function">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/incudes/admin_nav.php" afterPath="$PROJECT_DIR$/admin/incudes/admin_nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/index.php" afterPath="$PROJECT_DIR$/admin/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/incudes/view_all_comments.php" afterPath="$PROJECT_DIR$/admin/incudes/view_all_comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post.php" afterPath="$PROJECT_DIR$/post.php" />
     </list>
     <ignored path="cms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,55 +33,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="post.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="post.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154">
-              <caret line="77" column="60" selection-start-line="77" selection-start-column="60" selection-end-line="77" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.031021899">
+              <caret line="227" column="24" selection-start-line="227" selection-start-column="24" selection-end-line="227" selection-end-column="24" />
               <folding>
-                <marker date="1486998921603" expanded="true" signature="2888:2923" placeholder="SELECT * FRO..posts..." />
-                <marker date="1486998921603" expanded="true" signature="8903:8927" placeholder="SELECT * FRO..categories..." />
-                <marker date="1486998921603" expanded="true" signature="9565:9619" placeholder="..." />
+                <marker date="1487681883327" expanded="true" signature="2888:2923" placeholder="SELECT * FRO..posts..." />
+                <marker date="1487681883327" expanded="true" signature="5108:5355" placeholder="insert into Comments..." />
+                <marker date="1487681883327" expanded="true" signature="6952:6998" placeholder="Select * fro..comments..." />
+                <marker date="1487681883327" expanded="true" signature="6952:7000" placeholder="Select * fro..comments..." />
+                <marker date="1487681883327" expanded="true" signature="6952:7036" placeholder="Select * fro..comments..." />
+                <marker date="1487681883327" expanded="true" signature="9033:9057" placeholder="SELECT * FRO..categories..." />
+                <marker date="1487681883327" expanded="true" signature="9695:9749" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comment.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/comment.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.692307">
-              <caret line="42" column="61" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view_all_comments.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="view_all_comments.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/incudes/view_all_comments.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5355191">
-              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state vertical-scroll-proportion="-14.384615">
+              <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
               <folding>
-                <marker date="1487622440746" expanded="true" signature="297:311" placeholder="select * fro..posts..." />
-                <marker date="1487622440746" expanded="true" signature="297:319" placeholder="select * fro..comments..." />
-                <marker date="1487622440746" expanded="true" signature="1548:1588" placeholder="Delete from ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view_all_posts.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/incudes/view_all_posts.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="107" selection-end-column="2" />
-              <folding>
-                <marker date="1486988925543" expanded="true" signature="351:370" placeholder="select * fro..posts..." />
-                <marker date="1486988925543" expanded="true" signature="1712:1751" placeholder="select * fro..categories..." />
-                <marker date="1486988925543" expanded="true" signature="2290:2323" placeholder="Delete from ..." />
-                <marker date="1486988925543" expanded="true" signature="2290:2324" placeholder="Delete from ..." />
-                <marker date="1486988925543" expanded="true" signature="2290:2325" placeholder="Delete from ..." />
+                <marker date="1487679449311" expanded="true" signature="385:399" placeholder="select * fro..posts..." />
+                <marker date="1487679449311" expanded="true" signature="385:407" placeholder="select * fro..comments..." />
+                <marker date="1487679449311" expanded="true" signature="1845:1891" placeholder="UPDATE comme..." />
+                <marker date="1487679449311" expanded="true" signature="1845:1910" placeholder="UPDATE comme..." />
+                <marker date="1487679449311" expanded="true" signature="2269:2317" placeholder="UPDATE comme..." />
+                <marker date="1487679449311" expanded="true" signature="2269:2336" placeholder="UPDATE comme..." />
+                <marker date="1487679449311" expanded="true" signature="2269:2338" placeholder="UPDATE comme..." />
+                <marker date="1487679449311" expanded="true" signature="2695:2735" placeholder="Delete from ..." />
               </folding>
             </state>
           </provider>
@@ -119,7 +99,6 @@
         <option value="$PROJECT_DIR$/admin/incudes/edit_post.php" />
         <option value="$PROJECT_DIR$/admin/incudes/add_post.php" />
         <option value="$PROJECT_DIR$/admin/incudes/view_all_posts.php" />
-        <option value="$PROJECT_DIR$/post.php" />
         <option value="$PROJECT_DIR$/includes/404.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/includes/navigation.php" />
@@ -129,6 +108,7 @@
         <option value="$PROJECT_DIR$/admin/incudes/admin_nav.php" />
         <option value="$PROJECT_DIR$/admin/comment.php" />
         <option value="$PROJECT_DIR$/admin/incudes/view_all_comments.php" />
+        <option value="$PROJECT_DIR$/post.php" />
       </list>
     </option>
   </component>
@@ -172,7 +152,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -191,8 +170,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="incudes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,18 +304,30 @@
       <option name="project" value="LOCAL" />
       <updated>1486417514587</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="we make comments and delete function">
+      <created>1487622606066</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1487622606066</updated>
+    </task>
+    <task id="LOCAL-00007" summary="we made comments ,made Respond to function and modify Tables of comment">
+      <created>1487632340462</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1487632340462</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1364" height="735" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3136503" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31825152" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -356,7 +380,9 @@
     <MESSAGE value="this add a blank page" />
     <MESSAGE value="just making edit to cms" />
     <MESSAGE value="we add functions php and some modified in categories php" />
-    <option name="LAST_COMMIT_MESSAGE" value="we add functions php and some modified in categories php" />
+    <MESSAGE value="we make comments and delete function" />
+    <MESSAGE value="we made comments ,made Respond to function and modify Tables of comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="we made comments ,made Respond to function and modify Tables of comment" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -644,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -663,7 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24772313">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -708,18 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154">
-          <caret line="77" column="60" selection-start-line="77" selection-start-column="60" selection-end-line="77" selection-end-column="60" />
-          <folding>
-            <marker date="1486998921603" expanded="true" signature="2888:2923" placeholder="SELECT * FRO..posts..." />
-            <marker date="1486998921603" expanded="true" signature="8903:8927" placeholder="SELECT * FRO..categories..." />
-            <marker date="1486998921603" expanded="true" signature="9565:9619" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.692307">
@@ -732,22 +744,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.72131145">
           <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/comment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.692307">
-          <caret line="42" column="61" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/incudes/view_all_posts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="107" selection-end-column="2" />
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <marker date="1486988925543" expanded="true" signature="351:370" placeholder="select * fro..posts..." />
             <marker date="1486988925543" expanded="true" signature="1712:1751" placeholder="select * fro..categories..." />
@@ -758,14 +761,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9379562">
+          <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/incudes/view_all_comments.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5355191">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state vertical-scroll-proportion="-14.384615">
+          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
           <folding>
-            <marker date="1487622440746" expanded="true" signature="297:311" placeholder="select * fro..posts..." />
-            <marker date="1487622440746" expanded="true" signature="297:319" placeholder="select * fro..comments..." />
-            <marker date="1487622440746" expanded="true" signature="1548:1588" placeholder="Delete from ..." />
+            <marker date="1487679449311" expanded="true" signature="385:399" placeholder="select * fro..posts..." />
+            <marker date="1487679449311" expanded="true" signature="385:407" placeholder="select * fro..comments..." />
+            <marker date="1487679449311" expanded="true" signature="1845:1891" placeholder="UPDATE comme..." />
+            <marker date="1487679449311" expanded="true" signature="1845:1910" placeholder="UPDATE comme..." />
+            <marker date="1487679449311" expanded="true" signature="2269:2317" placeholder="UPDATE comme..." />
+            <marker date="1487679449311" expanded="true" signature="2269:2336" placeholder="UPDATE comme..." />
+            <marker date="1487679449311" expanded="true" signature="2269:2338" placeholder="UPDATE comme..." />
+            <marker date="1487679449311" expanded="true" signature="2695:2735" placeholder="Delete from ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.031021899">
+          <caret line="227" column="24" selection-start-line="227" selection-start-column="24" selection-end-line="227" selection-end-column="24" />
+          <folding>
+            <marker date="1487681883327" expanded="true" signature="2888:2923" placeholder="SELECT * FRO..posts..." />
+            <marker date="1487681883327" expanded="true" signature="5108:5355" placeholder="insert into Comments..." />
+            <marker date="1487681883327" expanded="true" signature="6952:6998" placeholder="Select * fro..comments..." />
+            <marker date="1487681883327" expanded="true" signature="6952:7000" placeholder="Select * fro..comments..." />
+            <marker date="1487681883327" expanded="true" signature="6952:7036" placeholder="Select * fro..comments..." />
+            <marker date="1487681883327" expanded="true" signature="9033:9057" placeholder="SELECT * FRO..categories..." />
+            <marker date="1487681883327" expanded="true" signature="9695:9749" placeholder="..." />
           </folding>
         </state>
       </provider>
