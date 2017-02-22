@@ -127,6 +127,8 @@ if (isset($_REQUEST['delete'])) {
     if (!$delete_post) {
         die("query failed" . mysqli_error($connection));
     }
+    header('location:comment.php');
+
 }
 if (empty($_REQUEST['delete'])) {
     unset($delete);
