@@ -60,8 +60,8 @@ if (isset($_POST['submit'])) {
     </div>
 
     <div class="form-group">
-        <label for="user_password">User Email</label>
-        <input type="text" id="user_password" name="user_password" class="form-control">
+        <label for="user_password">User Password</label>
+        <input type="password" id="user_password" name="user_password" class="form-control">
     </div>
 
 

@@ -34,7 +34,7 @@
                             include 'incudes/add_users.php';
                             break;
                         case"edit_users":
-                            include 'incudes/edit_user.php';
+                            include 'incudes/edit_users.php';
 
                             break;
 
