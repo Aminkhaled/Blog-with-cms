@@ -21,6 +21,28 @@
 
     </div>
 
+    <div class="well">
+        <h4>Blog Login</h4>
+
+        <form action="admin/incudes/login.php" method="post">
+            <div class="form-group">
+                <input type="text" name="username" class="form-control" placeholder="Username">
+            </div>
+            <div class="form-group">
+                <input type="password" name="password" class="form-control">
+            </div>
+            <div class="form-group">
+                <button class="btn btn-default" name="login">Submit</button>
+            </div>
+
+
+            <!-- /.input-group -->
+        </form>
+        <!-- form        -->
+
+    </div>
+
+
     <!-- Blog Categories Well -->
     <div class="well">
         <?php

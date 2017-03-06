@@ -6,6 +6,8 @@ if (isset($_POST['submit'])) {
     $user_email = $_POST['user_email'];
     $user_role = $_POST['user_role'];
     $user_password = $_POST['user_password'];
+    $user_password = md5($user_password);
+
 
 
     $query = "INSERT INTO users(username,user_firstname, user_lastname,user_email,user_password,user_role ) VALUES ('$username','$first_name','$last_name','$user_email','$user_password','$user_role')";

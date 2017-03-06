@@ -10,6 +10,8 @@ if (isset($_GET['p_id'])) {
         $user_email = $_POST['user_email'];
         $user_role = $_POST['user_role'];
         $user_password = $_POST['user_password'];
+        $user_password = md5($user_password);
+
 
 
         $query = "update users set ";
