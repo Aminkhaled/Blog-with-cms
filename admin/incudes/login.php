@@ -9,9 +9,9 @@ include('../../includes/db.php');
 if (isset($_POST['login'])) {
     $username = htmlspecialchars($_POST['username']);
     $password = htmlspecialchars($_POST['password']);
-    $password = md5($password);
 
-    $query = "Select * from users where username = '$username'";
+
+    $query = "Select * from users where username = '$username' and user_password = '$password' ";
     global $connection;
     $login_users = mysqli_query($connection, $query);
     while ($row = mysqli_fetch_assoc($login_users)) {
